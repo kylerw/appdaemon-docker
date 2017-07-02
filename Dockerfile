@@ -16,4 +16,4 @@ RUN git pull
 # INSTALL
 RUN pip3 install .
 
-CMD [ "appdaemon", "-c", "/conf/appdaemon.cfg" ]
+CMD [ "appdaemon", "-c", "/conf" ]
